@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Pets - ADOPT ME!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>OUR AVAILABLE PETS</h1>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pets.html">Our Pets</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Pet 1: Coco -->
+    <div class="pet-card">
+        <img src="images/final1.jpg" width="128" height="128" alt="Coco the Dog">
+        <table>
+            <tr>
+                <td>Name: Coco</td>
+                <td>Age: 2.5 years</td>
+                <td>Type: Dog</td>
+            </tr>
+        </table>
+        <button onclick="alert('Thank you for inquiring about adopting Coco!')" id="button-coco">Adopt Me</button>
+    </div>
+
+    <br>
+
+    <!-- Pet 2: Mimi -->
+    <div class="pet-card">
+        <img src="images/final2.jpg" width="128" height="128" alt="Mimi the Cat">
+        <table>
+            <tr>
+                <td>Name: Mimi</td>
+                <td>Age: 1.5 years</td>
+                <td>Type: Cat</td>
+            </tr>
+        </table>
+        <button onclick="alert('Thank you for inquiring about adopting Mimi!')" id="button-mimi">Adopt Me</button>
+    </div>
+
+    <br>
+
+    <!-- Pet 3: Fifi -->
+    <div class="pet-card">
+        <img src="images/final3.jpg" width="128" height="128" alt="Fifi the Rabbit">
+        <table>
+            <tr>
+                <td>Name: Fifi</td>
+                <td>Age: 3 years</td>
+                <td>Type: Rabbit</td>
+            </tr>
+        </table>
+        <button onclick="alert('Thank you for inquiring about adopting Fifi!')" id="button-fifi">Adopt Me</button>
+    </div>
+
+    <br>
+
+    <!-- Pet 4: Rocky -->
+    <div class="pet-card">
+        <img src="images/pet1.jpg" width="128" height="128" alt="Rocky the Parrot">
+        <table>
+            <tr>
+                <td>Name: Rocky</td>
+                <td>Age: 1 year</td>
+                <td>Type: Parrot</td>
+            </tr>
+        </table>
+        <button onclick="alert('Thank you for inquiring about adopting Rocky!')" id="button-rocky">Adopt Me</button>
+    </div>
+
+</body>
+</html>
