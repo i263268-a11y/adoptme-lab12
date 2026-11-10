@@ -1,20 +1,21 @@
-body {
-    background-color: lightpink;
-    
-    
-h1{
-    color: black;
-    font-family: trebuchet Ms;
+/* Navigation Bar Styling */
+.navbar {
     text-align: center;
- 
-}
-div {
-    margin: 25px 50px 70px 200px
+    margin-bottom: 25px;
 }
 
-.button{
-    background-colour: red;
+.nav-link {
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
     color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 0 5px;
     border-radius: 25px;
+    font-weight: bold;
 }
 
+.nav-link:hover {
+    background-color: darkred;
+}
